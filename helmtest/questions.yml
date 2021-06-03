@@ -3,7 +3,7 @@ categories:
 questions:
 - variable: ingress.enabled
   default: true
-  description: "Ingress enabled c"
+  description: "Ingress enabled d"
   type: boolean
   required: true
   label: Ingress enabled
