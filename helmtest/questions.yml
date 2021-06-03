@@ -1,0 +1,17 @@
+categories:
+- Ingress
+questions:
+- variable: ingress.enabled
+default: "true"
+description: "Ingress enabled"
+type: boolean
+required: true
+label: Ingress enabled
+show_subquestion_if: true
+group: "Ingress Settings"
+subquestions:
+- variable: ingress.hosts[0].host
+  default: ""
+  description: "Hostname"
+  type: string
+  label: Hostname
