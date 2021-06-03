@@ -1,9 +1,9 @@
 categories:
-- Ingress
+- Test
 questions:
 - variable: ingress.enabled
-  default: true
-  description: "Ingress enabled d"
+  default: "true"
+  description: "Ingress enabled"
   type: boolean
   required: true
   label: Ingress enabled
